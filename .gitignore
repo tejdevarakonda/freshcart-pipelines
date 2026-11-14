@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Serialized models and datasets
+*.pkl
+*.csv
+
+# Logs
+mage.log
+*.log
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Temporary test scripts containing credentials
+test_snowflake_conn.py
