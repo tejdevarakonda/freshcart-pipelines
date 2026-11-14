@@ -21,3 +21,10 @@ env/
 
 # Temporary test scripts containing credentials
 test_snowflake_conn.py
+git_push_helper.py
+
+# Exclude final report files from GitHub tracking (submit directly to portal)
+RollNo_Name_Pipelines.*
+generate_docx_report.py
+*.pdf
+*.docx
